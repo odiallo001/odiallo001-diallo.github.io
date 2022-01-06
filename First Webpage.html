@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>First Webpage</title>
+    </head>
+    <body>
+        <h1>Assingment 1</h1>
+            <p>This is my first webpage and I'm excited to learn more about front end development</p>
+            <a href="https://www.google.com/"> This is a link to Google </a><br>
+            <img src="https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-05/9dbea438bcd305129064e4a048cc6b52.jpeg?itok=Pbyrka1l"height ="100" width="200"/>
+            <p> <i>Email me by clicking on<a href="Ousmane Diallo"> Ousmane Diallo</a> <br> visit us at :<br><a href="Disney World"> Disney World</a> <br> Box 678, DisneyLand <br> USA </i></p>
+            <h3> Bonus! Create A Table <h3>   
+            <table border="2" style="background-color:yellow;text-align: center">
+                <tr>
+                    <td width="100"> </td>
+                    <td width="100">Width</td>
+                    <td> Border </td>
+                    <td width="100"> bgcolor </td>
+                </tr>
+                <tr style="background-color:pink;text-align:center">
+                    <td > Value1</td>
+                    <td style="font-weight: normal">="100"</td>
+                    <td style="font-weight: normal">="2"</td>
+                    <td style="font-weight: normal">="yellow"</td>
+                <tr style="background-color:pink;text-align:center">
+                    <td> value2</td>
+                    <td style="font-weight: normal"><i>italic</td>
+                    <td style="font-weight: normal">="2" or "2px"</td>
+                    <td style="font-weight: normal">= "lightpink"</td>
+</table>
+            <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+ </html>
+
+
+    
