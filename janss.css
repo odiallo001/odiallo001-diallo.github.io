@@ -1,0 +1,22 @@
+img {
+    border: 5px solid rgb(233, 195, 28);
+  }
+
+* {
+    box-sizing: border-box;
+}
+/* .column{
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+} */
+.row{
+    height: 300px;
+    
+   
+}
+.row div{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
