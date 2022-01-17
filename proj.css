@@ -1,0 +1,27 @@
+p{
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-color: red;
+  
+}
+li.underline{
+  text-decoration:underline
+}
+p{
+background-color: palevioletred;
+}
+h{text-indent: 3mm;}
+table{
+  background-color: aqua;
+  border: 1px solid black;
+  width: 10%;
+}
+td{
+  background-color: rgb(105, 143, 153);
+}
+img {
+  border: rgb(9, 0, 139) solid 15px;
+  caption-side: bottom;
+}
